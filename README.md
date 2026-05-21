@@ -1,1 +1,2 @@
-# BPhO-Computational-Challenge-2026
+# BPhO-Computational-Physics-Challenge-2026
+i
