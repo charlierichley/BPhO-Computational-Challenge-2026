@@ -1,0 +1,319 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[hidelinks]{hyperref}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{parskip}
+
+\newcommand{\Prob}{\mathrm{P}}
+\setlength{\parindent}{0pt}
+
+\usepackage{mathtools}
+
+\DeclarePairedDelimiter{\abs}{\lvert}{\rvert}
+
+\title{Quantum Mechanics Problem Sheet 3 Solutions}
+\author{Charles Richley}
+\date{July 2026}
+
+\begin{document}
+
+\maketitle
+
+\section{Question 1}
+
+\subsection*{i)}
+$\lambda = \frac{h}{p}$ and $p = mv$ 
+
+Substituting gives $\lambda = \frac{h}{mv}$
+
+Given that $m_e = 9.109  \times 10^{-31}$, $h = 6.626 \times10^{-34}$ and $v = \frac{2.998 \times 10^{8}}{137}$
+
+$\lambda = \frac{6.626 \times 10^{-34}}{9.109 \times 10^{-31} \times \frac{2.998 \times 10^{8}}{137}} = 3.32 \times 10^{-10} \text{ m}$
+
+\subsection*{ii)}
+Rearranging the first equation gives $v = \frac{h}{\lambda m}$
+h is a constant, and given that the wavelengths are the same, we can find the ratio of their velocities (electron to neutron).
+
+$\frac{v_e}{v_n} = \frac{m_n}{m_e} = \frac{1.6749 \times 10^{-27}}{9.109 \times 10^{-31}} = 1839$
+
+The ratio of their kinetic energies is $\frac{\frac{1}{2}m_e v_e^2}{\frac{1}{2} m_n v_n^2}$
+
+We know from above that $\frac{v_e}{v_n} = \frac{m_n}{m_e}$.
+
+Substituting and cancelling the half gives $\frac{m_e}{m_n} (\frac{m_n}{m_e})^2$ 
+
+Simplifying to $\frac{m_n}{m_e}$ = 1839 so the ratio of their velocites is the same as the ratio of their kinetic energies.
+
+\subsection*{iii)}
+Using the given approximations
+
+$\Delta x\Delta p \approx \frac{1}{2} \hbar$
+
+$\Delta E \Delta t \approx \frac{1}{2} \hbar$
+
+$\Delta p \approx mc$
+
+$\Delta E \approx mc^2$
+
+We find the mass by $m = \frac{91.2 \times 10^9 \times 1.602\times 10^{-19}}{(2.998\times10^8)^2} = 1.63 \times 10^{-25}$ kg
+
+$\Delta x mc = \frac{1}{2}\hbar$
+
+$\Delta x = \frac{\hbar}{2mc} = \frac{h}{4 \pi m c} = \frac{6.626\times10^{-34}}{4 \pi \times 2.998 \times 10^8 \times 1.63 \times 10^{-25}} = 1.08 \times 10^{-18}$ m
+
+$\Delta t = \frac{\hbar}{2mc^2}$, which is $\frac{\Delta x}{c} = \frac{1.08\times10^{-18}}{2.998\times10^8} = 3.60 \times 10^{-27}$
+
+\subsection*{iv)}
+The wave equation is $\frac{\partial^2 \psi}{\partial x^2} = \frac{1}{c^2}\frac{\partial^2 \psi}{\partial t^2}$
+
+$\psi(x,t) = A\sin(kx-\omega t)$
+\newline
+
+First we differentiate $\psi(x,t)$ with respect to x and constant t.
+
+$\frac{\partial \psi}{\partial x} = Ak\cos(kx-\omega t)$
+
+$\frac{\partial^2 \psi}{\partial x^2} = -Ak^2\sin(kx - \omega t) = -k^2 \psi(x,t)$
+\newline
+
+Now we differentiate $\psi(x,t)$ with respect to t and constant x.
+
+$\frac{\partial \psi}{\partial t} = -A\omega \cos(kx-\omega t)$
+
+$\frac{\partial^2 \psi}{\partial t^2} = -A\omega^2\sin(kx - \omega t) = -\omega ^2 \psi(x,t)$
+\newline
+
+Plugging into the wave equation, we get
+$ -k^2 \psi(x,t) = -\frac{1}{c^2} \omega^2 \psi(x,t)$
+
+$ \implies k^2 \psi(x,t) = \frac{1}{c^2} \omega^2 \psi(x,t)$
+$ \implies k^2c^2= \omega ^2 \implies kc = \omega$ (if $\psi$ is a solution of the wave equation)
+\newline
+
+Given that sine is periodic with period $2\pi$, $k = \frac{2\pi}{\lambda}$, and $\omega = 2\pi f$
+
+$c = f\lambda$
+
+Combining our last two equations gives $\omega = \frac{2\pi}{\lambda}c$, but we know $\frac{2\pi}{\lambda} = k$, so we have shown that $\omega = kc$ as required, so $\psi$ is a solution of the wave equation.
+
+\subsection*{v)}
+
+Electrons have a de-Broglie wavelength given by $\lambda = \frac{h}{\sqrt{2meV}}$
+
+If the electrons are not measured, they behave as waves, forming minima and maxima (bright and dark spots) on the screen following the equation $n\lambda=d\sin{\theta}$.
+
+If the electrons are measured, there is a 'wavefunction collapse' and they behave as particles, so there can be no interference, and the path of the electron can be deduced.
+
+\subsection*{vi)}
+
+$E = \frac{1}{2}mv^2$ and $p = mv$
+
+$\frac{p}{m}=v$
+
+$E = \frac{1}{2}\frac{p^2}{m^2}m$
+
+$E = \frac{p^2}{2m}$
+
+\subsection*{vii)}
+$\lambda = \frac{ax}{D}$
+
+$n\lambda = d \sin{\theta}$
+
+$\lambda = s \sin30 \implies \lambda = \frac{1}{2}s = 1.075 \times 10^{-10}$ m 
+
+Now we calculate the energy and speed of the neutrons.
+
+$E = \frac{p^2}{2m}$ and $p=\frac{h}{\lambda}$
+
+Combining gives $E = \frac{h^2}{2m\lambda^2} = \frac{(6.626\times 10^{-34})^2}{2 \times 1.6749 \times 10^{-27} \times (1.075 \times 10^{-10})^2} = 1.13 \times 10^{-20}$ J
+
+Converting to eV: $\frac{ 1.13 \times 10^{-20}}{1.602 \times 10^{-19}} = 0.0708$ eV
+
+$v = \sqrt{\frac{2E}{m}} = \sqrt{\frac{2 \times 1.13 \times 10^{-20}}{1.6749 \times 10^{-27}}} = 3673$ m/s
+
+\subsection*{viii)}
+
+$hf = \phi + E_{k, \max} \implies f = \frac{\phi + E_{k, \max}}{h} = \frac{(4.3 + 5.1)}{6.626 \times 10^{-34}} \times 1.602 \times 10^{-19} = 2.27 \times 10^{15}$ Hz
+
+$\lambda = \frac{c}{f} = \frac{2.998 \times 10^{8}}{2.27 \times 10^{15}} = 132$ nm
+
+$E = \frac{h^2}{2m_e \lambda^2} = \frac{(6.626 \times 10 ^{-34})^2}{2 \times 9.109 \times 10^{-31}\times (132\times10^{-9})^2} = 1.38 \times 10^{-23}$J $ = 8.64 \times 10^{-5} $eV
+
+\subsection*{ix)}
+
+This means that the electrons have a de-Broglie wavelength of 0.42nm.
+
+$E = \frac{h^2}{2\lambda^2m_e} = \frac{(6.626 \times 10 ^{-34})^2}{2 \times 9.109 \times 10^{-31}\times (0.42\times10^{-9})^2} = 1.37 \times 10 ^{-18}$J $= 8.53$ eV
+
+
+\subsection*{x)}
+
+$\Delta x \Delta p \geq \frac{\hbar}{2}$ and $\Delta E \Delta t \geq \frac{\hbar}{2}$
+
+We get $\Delta t \geq \frac{\hbar}{2\Delta E}$
+
+$\Delta t \geq \frac{h}{4 \pi \Delta E}$
+
+$\Delta t \geq \frac{6.626 \times 10^{-34}}{4\pi \times 5 \times 10^6 \times 1.602 \times 10^{-19}}$
+
+So $\Delta t \geq 6.58 \times 10^{-23}$ s
+\\
+
+In a similar way, $\Delta x \geq \frac{h}{4 \pi \Delta p}$
+
+$\Delta p = \sqrt{2 E m_e} = \sqrt{2 \times 5 \times 10^6 \times 1.602 \times 10^{-19} \times 9.109 \times 10^{-31}} = 1.21 \times 10^{-21}$
+
+So $\Delta x \geq \frac{6.626\times10^{-34}}{4 \pi \times 1.21 \times 10^{-21}} = 4.36 \times 10^{-14}$
+
+\section{Question 2}
+
+\subsection*{i)}
+
+We explain why standing waves of the form $\psi(x,t) = A_n\sin(\frac{n\pi x}{a})\cos{(\omega t})$ are suitable for the particle in a box model.
+\\
+
+The particle is confined between $x =0 $ and $x = a$, so by the Born interpretation, the modulus of the wavefunction squared must be 0 if x is not in the range 0 to a. 
+
+If $x=0$, the wavefunction is also zero (because $\sin{(0)}=0$)
+
+If $x=a$, the wavefunction is $\sin{(n\pi)}$, which is equal to zero (so long as $n \in \mathbb{Z})$.
+
+The cosine term allows for time dependency of the wavefunction.
+
+A standing wave, rather than a travelling wave, is appropriate as the 0 probabilities at $x=0$ and $x=a$ implies there are nodes at the boundaries.
+
+This means that $a = n\frac{\lambda}{2}$, so there is an integer number of wavelengths inside the box (to allow for the nodes), so that $\lambda = \frac{2a}{n}$. 
+
+From the wavenumber $k = \frac{2\pi}{\lambda}$, and $\lambda = \frac{2a}{n}$, we can deduce that the sine term must be $\sin({\frac{n\pi x}{a}})$.
+
+
+\subsection*{ii)}
+
+The time-indepedent Schrödinger equation (with $V=0$ as we are inside the box) is $
+-\frac{\hbar^2}{2m}\frac{\partial^2 \psi}{\partial x^2} = E\psi$.
+
+We first evaluate $\frac{\partial \psi}{\partial x} = A_n\frac{n\pi}{a}\cos(\frac{{n\pi x}}{a})\cos({\omega t})$
+
+We then get $\frac{\partial^2 \psi}{\partial x^2} = -A_n\frac{n^2\pi^2}{a^2}\sin(\frac{{n\pi x}}{a})\cos({\omega t}) = -\psi \frac{n^2\pi^2}{a^2}$
+
+So using Schrödinger's equation, $E\psi = \psi \frac{n^2\pi^2}{a^2}\frac{\hbar^2}{2m}$
+
+Giving $E (n, a) = \frac{n^2\pi^2 \hbar^2}{2ma^2}$
+\\
+
+For a proton with $a = 0.47 \times 10^{-15}$, $E = \frac{n^2 \pi^2 (\frac{6.626\times10^{-34}}{2\pi})^2}{2 \times 1.6726 \times 10^{-27} \times (0.47\times10^{-15}) ^2}$
+
+Using $n=1$ gives the energy as $1.49 \times 10^{-10}$ J.
+ 
+To convert into MeV, we do $\frac{1.49 \times 10^{-10}}{1.602\times10^{-19}} \times 10^{-6} = 928$ MeV
+
+Rest mass energy of a proton in eV is $\frac{(2.998\times10^{8})^2 \times 1.6726 \times 10^{-27}} {1.602 \times 10^{-19}} \times 10^{-6} = 940$ MeV
+
+
+\subsection*{iii)}
+
+The time dependent Schrödinger equation is $ -\frac{\hbar^2}{2m}\frac{\partial^2\psi}{\partial x^2} + V\psi = i\hbar\frac{\partial\psi}{\partial t}$.
+
+We choose $e^{\frac{-iEt}{\hbar}}$ instead of $\cos{(\omega t)}$ so that when we differentiate with respect to t, for the RHS of the above equation, we have a derivative that's a constant multiplied by the original function, which works for exponentials. 
+
+We can see this by $\frac{\partial}{\partial t} (e^{\frac{-iEt}{\hbar}}) = \frac{-iE}{\hbar}e^{\frac{-iEt}{\hbar}}$
+\\
+
+We now determine $A_n$ by considering that the sum of the probabilities of a particle being at any x position between 0 and a must be one.
+
+$\int_0^a \abs{\psi}^2   \,dx = 1$
+
+We now use the standard results that $\abs{z}^2 = z\overline{z}$, and the conjugate of $e^{ix}$ is equal to $e^{-ix}$.
+
+$\int_0^a \psi \overline{\psi}   \,dx = 
+\int_0^a A_n \sin({\frac{n\pi x}{a}}) e^{\frac{iEt}{\hbar}} \times A_n \sin({\frac{n\pi x}{a}}) e^{\frac{-iEt}{\hbar}}  \,dx = 1$
+
+The integrand simplifies to $\int_0^a \sin{(\frac{n\pi x}{a})^2}   \,dx = \frac{1}{A_n^2}$
+
+We use the result that $\sin^2x = \frac{1-\cos{2x}}{2}$
+
+$\int_0^a 1 - \cos(\frac{2n\pi x}{a})   \,dx = \frac{2}{A_n^2}$
+
+$[x - \frac{a\sin({\frac{2n\pi x}{a}})}{2\pi n}]_0^a = \frac{2}{A_n^2}$ 
+
+The left hand side evaluates to a, giving $a = \frac{2}{A_n^2}$, so $A_n = \sqrt{\frac{2}{a}}$
+
+\subsection*{iv)}
+
+Due to the symmetries of the box, and the fact that momentum is a vector, the average momentum going one way is equal to the average in the opposite direction, so they cancel out giving $\langle p \rangle = 0$
+
+Earlier we showed $E=\frac{p^2}{2m}$, so that $p^2 = 2mE$
+
+$\langle p^2 \rangle = 2m \langle E \rangle$
+
+We have from above that $E = \frac{n^2\pi^2\hbar^2}{2ma^2}$
+
+Giving $\langle p^2 \rangle = \frac{n^2\pi^2\hbar^2}{a^2}$ as required.
+
+
+\subsection*{v)}
+
+$\langle x \rangle = \int_0^a xA_n^2\sin^2{(\frac{n\pi x}{a}})  \,dx
+= \frac{2}{a} \int_0^a x\sin^2{(\frac{n\pi x}{a}}) \,dx$
+
+Using the given integrals (which can be derived using integration by parts), we get $\frac{2}{a} \left[ \frac{1}{4}x^2 - \frac{x\sin({\frac{2n\pi x}{a}})}{4\frac{n\pi}{a}} - \frac{\cos({\frac{2n\pi x}{a}})}{8\frac{n^2\pi^2}{a^2}} \right]_0^a$
+
+We note that $\forall n \in \mathbb{Z}$: $\sin(2n\pi)=0$ and $\cos(2n\pi)=1$, so that the sine and cosine term cancels out.
+
+Evaluating the integral between a and 0 gives $\langle x \rangle = \frac{2}{a}(\frac{1}{4}a^2) = \frac{a}{2}$ as required.
+\\
+
+We now look for $\langle x^2 \rangle = \frac{2}{a} \int_0^a x^2\sin^2{(\frac{n\pi x}{a}}) \,dx$
+
+Again using the given integrals, we get $\frac{2}{a} \left[ \frac{1}{6}x^3 - \frac{x\cos({\frac{2n\pi x}{a}})}{4(\frac{n\pi}{a})^2} - \frac{(2(\frac{n\pi x}{a})^2-1) \sin({\frac{2n\pi x}{a}})}{8(\frac{n\pi}{a})^3} \right]_0^a$
+
+We note that again the sine term cancels, but the cosine term does not.
+
+$\frac{2}{a} \left[ \frac{1}{6}x^3 - \frac{x\cos({\frac{2n\pi x}{a}})}{4(\frac{n\pi}{a})^2} \right]_0^a 
+= \frac{2}{a}((\frac{1}{6}a^3 - \frac{a}{4\frac{n^2\pi^2}{a^2}}) - (0 -0)) = \frac{2}{a}(\frac{1}{6}a^3 - \frac{a^3}{4n^2\pi^2})$
+
+This simplifies to $\frac{1}{3}a^2-\frac{a^2}{2n^2\pi^2}$, which factorises to $\frac{1}{3}a^2(1-\frac{3}{2n^2\pi^2})$, as required.
+
+\subsection*{vi)}
+
+We use $\Delta x = \sqrt{\langle x^2\rangle - \langle x \rangle^2}$ and $\Delta p = \sqrt{\langle p^2\rangle - \langle p \rangle^2}$, with our earlier results.
+
+$\Delta x= \sqrt{\frac{1}{3}a^2(1-\frac{3}{2n^2\pi ^2}) -\frac{1}{4}a^2} = \sqrt{\frac{1}{12}a^2 - \frac{1}{2n^2\pi^2}} = a\sqrt{\frac{n^2\pi^2 - 6}{12n^2\pi^2}} = \frac{a}{2n\pi}\sqrt{\frac{n^2\pi^2}{3} - 2}$
+
+$\Delta p= \sqrt{\frac{\hbar^2\pi^2n^2}{a^2}} = \frac{\hbar n \pi}{a}$
+
+So that $\Delta x \Delta p = \frac{a}{2n\pi}\frac{\hbar n \pi}{a}\sqrt{\frac{n^2\pi^2}{3} - 2}$, which simplifies to $\frac{1}{2}\hbar \sqrt{\frac{n^2\pi^2}{3} - 2}$ as required.
+\\
+
+We now show it satisfies the uncertainty principle, so that $\Delta x \Delta p \geq \frac{1}{2}\hbar$
+
+Therefore, we only have to consider whether $\sqrt{\frac{n^2\pi^2}{3} - 2}$ is greater than one. It is an increasing function of n $\forall n \in \mathbb{N}$, so we consider the minimum value of the function at $n = 1$. 
+
+We get $\sqrt{\frac{\pi^2}{3} - 2}$, which evaluates to $1.14$ (2 d.p.), which is certainly greater than one for all n, so the particle always satisfies the Uncertainty principle.
+
+\section{Question 3}
+
+We use the formulas derived from the challenge, which can be found in the PDF after downloading the 2026 challenge from this \href{https://eclecticon.info/physics_bpho_compphys.htm}{link}.
+
+We have $\theta = -45^\circ$ and $\phi=30^\circ$
+
+\subsection*{Malus' Law (Classical)}
+
+$\Prob(\text{match}) = \cos^2\theta \cos^2\phi + \sin^2\theta \sin^2\phi$
+\noindent
+
+$\Prob(\text{mismatch}) = 1 - \cos^2\theta \cos^2\phi - \sin^2\theta \sin^2\phi$
+
+So $\Prob(\text{mismatch}) = 1 - \cos^2(-45) \cos^2(30) - \sin^2(-45) \sin^2(30) = 0.50$
+
+\subsection*{Copenhagen Interpretation (Quantum)}
+
+$\Prob(\text{match}) = \cos^2({\phi-\theta})$
+
+$\Prob(\text{mismatch}) = \sin^2({\phi-\theta})$
+
+So $\Prob(\text{mismatch}) = \sin^2({30- -45}) = \sin^2(75) = \frac{2+\sqrt{3}}{4} \approx 0.93$
+
+\end{document}
