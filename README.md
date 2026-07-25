@@ -2,3 +2,8 @@
 My entry to the British Physics Olympiad Computational Physics Challenge involving modelling quantum mechanics using Python. Also includes a problem sheet in LaTeX.
 
 Submission video: 
+
+Tasks:
+
+Task 1 - Random Walks
+
