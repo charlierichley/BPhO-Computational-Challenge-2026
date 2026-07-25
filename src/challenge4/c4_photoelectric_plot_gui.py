@@ -88,7 +88,7 @@ box_color="#FA3C28"
 line, = ax.plot(points[:,0], points[:,1], color='white')
 f_c = f_cutoff(work_func)
 cutoff_point, = ax.plot(f_c, 0, marker="+", markersize=6.5, color='orange')
-ax.set_title(f"Photoelectric effect: W = {work_func} eV")
+ax.set_title(f"Photoelectric Effect: W = {work_func} eV")
 ymin, ymax = ax.get_ylim()
 cutoff_ylim = 0
 y_limit = find_ylim(cutoff_ylim, ymin, ymax)
@@ -120,7 +120,7 @@ def update_plot(element):
     f_c = f_cutoff(work_function)
     cutoff_point.set_data([f_c], [0])
     annotation.xy = (f_c, 0)
-    ax.set_title(f"Photoelectric effect: W = {work_function}eV")
+    ax.set_title(f"Photoelectric Effect: W = {work_function}eV")
     annotation.set_text(rf'$f_{{\mathrm{{cutoff}}}} = {round(f_c / 1e15, 2)}\times 10^{{15}}\ \mathrm{{Hz}}$')
 
     bottom = points[:,1].min()
@@ -157,5 +157,5 @@ button_quit = tk.Button(master=root, text="Quit", command=root.destroy)
 button_quit.pack(side=tk.BOTTOM)
 canvas.get_tk_widget().pack(side=tk.TOP, fill=tk.BOTH, expand=True)
 
-root.wm_title("Photoelectric effect")
+root.wm_title("Photoelectric Effect")
 root.mainloop()
