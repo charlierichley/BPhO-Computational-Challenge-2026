@@ -9,6 +9,7 @@ https://www.youtube.com/watch?v=Boz_FdN7sq8
 ## Tasks:
 
 ### - Task 1 - Random Walks
+
 Developed an interactive simulation of 2D random walks using Tkinter and Matplotlib, allowing users to change step size, step number, and number of walks
 Animated 3D random walks using PyVista
 
