@@ -2,9 +2,10 @@
 My entry to the British Physics Olympiad Computational Physics Challenge involving modelling quantum mechanics using Python. Also includes a problem sheet in LaTeX.
 
 
-## Submission video: 
+## Submission Video: 
 https://www.youtube.com/watch?v=Boz_FdN7sq8
 
+## Brief Overview
 
 ## Tasks:
 
@@ -22,7 +23,7 @@ https://www.youtube.com/watch?v=Boz_FdN7sq8
 ### Task 3 - Black Body Radiation and Numerical Methods
 - Plotted Einstein's model of molar heat capacity
 - Developed an interactive application to plot the Planck Black Body Radiation spectrum at inputted temperatures.
-- Extension: investigated numerical methods used to integrate the Planck Spectrum, including the trapezium rule boh static and adaptive Simpson's rule to verify the Stefan-Boltzmann law and developed animations of methods
+- Extension: investigated numerical methods used to integrate the Planck Spectrum, including the trapezium rule both static and adaptive Simpson's rule to verify the Stefan-Boltzmann law and developed animations of methods
 
 ### Task 4 - Photoelectric Effect
 - Created a GUI plotting stopping voltage against frequency, allowing users to choose a metal from a dropdown menu
