@@ -49,4 +49,4 @@ https://www.youtube.com/watch?v=Boz_FdN7sq8
 </p>
 
 Requirements:
-Python 3.12, PyVista, NumPy, Matplotlib, Tkinter, colour, vtk, scipy, pygame, pygame widgets
+Python 3.12, PyVista, NumPy, Matplotlib, Tkinter, colour, SciPy, Pygame, Pygame Widgets
