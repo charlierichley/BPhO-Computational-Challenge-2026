@@ -15,6 +15,9 @@ https://www.youtube.com/watch?v=Boz_FdN7sq8
 
 ### Task 2 - Brownian Motion
 - Animation of 2D Brownian Motion using Matplotlib, simulating the interaction of one larger particle with many smaller particles
+<p align="center">
+<img src="./images/brownian_motion" alt="Brownian Motion" width="500">
+</p>
 
 ### Task 3 - Black Body Radiation and Numerical Methods
 - Plotted Einstein's model of molar heat capacity
