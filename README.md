@@ -8,12 +8,12 @@ https://www.youtube.com/watch?v=Boz_FdN7sq8
 
 ## Tasks:
 
-### - Task 1 - Random Walks
+### Task 1 - Random Walks
 
 Developed an interactive simulation of 2D random walks using Tkinter and Matplotlib, allowing users to change step size, step number, and number of walks
 Animated 3D random walks using PyVista
 
-### - Task 2 - 
+### Task 2 - 
 Animation of 2D Brownian Motion using Matplotlib, simulating the interaction of one larger particle with many smaller particles
 
 - Task 3 -
