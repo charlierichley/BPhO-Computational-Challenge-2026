@@ -122,7 +122,7 @@ for indx, z in enumerate(Z_arr):
         pl.add_mesh(visible, scalars='values', cmap='jet', nan_opacity=0, opacity=0.5, show_scalar_bar=True, scalar_bar_args=scalar_args)
 
 # Adjusting graph layout
-pl.add_axes()
+#pl.add_axes()
 orbital = orbital(l)
 pv.global_theme.font.family = "times"
 title = pl.add_title(f"Z={Z}, A={A}, orbital {n}{orbital}, M={m}")
