@@ -45,7 +45,7 @@ https://www.youtube.com/watch?v=Boz_FdN7sq8
 - Plotted hydrogenic orbitals using PyVista with 2D slices and 3D visualisations
 - Extension: animated the morphing of orbitals at fixed n and l quantum numbers between different values of m
 <p align="center">
-<img src="./images/orbital.png" alt="Hydrogenic orbital" width="500">
+<img src="./images/orbital_3d.png" alt="Hydrogenic orbital" width="500">
 </p>
 
 Requirements:
