@@ -45,5 +45,5 @@ Plotted fractional wavelength shift, electron recoil speed and electron recoil a
 Plotted hydrogenic orbitals using PyVista with 2D slices and 3D visualisations
 Extension: animated the morphing of orbitals at fixed l and n quantum numbers between different values of m
 
-### Requirements:
+Requirements:
 Python 3.12, PyVista, NumPy, Matplotlib, Tkinter, colour, vtk, scipy, pygame, pygame widgets
