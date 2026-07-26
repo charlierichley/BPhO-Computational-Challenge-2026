@@ -40,6 +40,9 @@ https://www.youtube.com/watch?v=Boz_FdN7sq8
 
 ### Task 8 - Quantum Cryptography
 - Developed an interactive simulation of quantum cryptography using Pygame, allowing users to adjust the angles of detectors, with classical and quantum mismatch probabilities displayed
+<p align="center">
+<img src="./images/quantum_cryptography.png" alt="Quantum Cryptography" width="500">
+</p>
 
 ### Task 9 - Compton Scattering
 - Plotted fractional wavelength shift, electron recoil speed and electron recoil angle against photon scattering angle
