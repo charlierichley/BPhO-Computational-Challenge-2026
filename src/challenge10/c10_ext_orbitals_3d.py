@@ -127,7 +127,7 @@ for m in range (m_min, m_max + 1):
 actors = []
 title = None
 finished = False
-pl.add_axes()
+#pl.add_axes()
 n_labels = 5
 grd = pl.show_grid(xtitle="x", ytitle="y", ztitle="z", fmt="%.0f",
                    bounds=[x_min, x_max, y_min, y_max, z_min, z_max], n_xlabels=n_labels, n_ylabels=n_labels,
