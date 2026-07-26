@@ -10,17 +10,16 @@ https://www.youtube.com/watch?v=Boz_FdN7sq8
 
 ### Task 1 - Random Walks
 
-Developed an interactive simulation of 2D random walks using Tkinter and Matplotlib, allowing users to change step size, step number, and number of walks
-
-Animated 3D random walks using PyVista
+- Developed an interactive simulation of 2D random walks using Tkinter and Matplotlib, allowing users to change step size, step number, and number of walks
+- Animated 3D random walks using PyVista
 
 ### Task 2 - 
-Animation of 2D Brownian Motion using Matplotlib, simulating the interaction of one larger particle with many smaller particles
+- Animation of 2D Brownian Motion using Matplotlib, simulating the interaction of one larger particle with many smaller particles
 
 ### Task 3 -
-Plotted Einstein's model of molar heat capacity
-Developed an interactive application to plot the Planck Black Body Radiation spectrum at inputted temperatures.
-Extension: investigated numerical methods used to integrate the Planck Spectrum, including the trapezium rule boh static and adaptive Simpson's rule to verify the Stefan-Boltzmann law and developed animations of methods
+- Plotted Einstein's model of molar heat capacity
+- Developed an interactive application to plot the Planck Black Body Radiation spectrum at inputted temperatures.
+- Extension: investigated numerical methods used to integrate the Planck Spectrum, including the trapezium rule boh static and adaptive Simpson's rule to verify the Stefan-Boltzmann law and developed animations of methods
 
 ### Task 4 -
 Created a GUI plotting stopping voltage against frequency, allowing users to choose a metal from a dropdown menu
