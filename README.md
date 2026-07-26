@@ -24,6 +24,9 @@ https://www.youtube.com/watch?v=Boz_FdN7sq8
 ### Task 4 - Photoelectric Effect
 - Created a GUI plotting stopping voltage against frequency, allowing users to choose a metal from a dropdown menu
 - Extension: developed an interactive photoelectric effect simulation using Pygame, allowing users to change metal, intensity, wavelength and voltage
+<p align="center">
+<img src="./images/photoelectric_simulation.png" alt="Photoelectric Effect Simulation" width="500">
+</p>
 
 ### Task 5 - Photon Emissions
 - Plotted photon energy against wavelength for photon emissions from hydrogen atoms
