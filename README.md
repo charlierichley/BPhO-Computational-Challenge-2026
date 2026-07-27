@@ -10,7 +10,7 @@ https://www.youtube.com/watch?v=Boz_FdN7sq8
 - Created interactive simulations using Pygame (photoelectric effect, quantum cryptography)
 - Developed interactive GUIs (random walks)
 - Investigated numerical methods for integrating the Planck Spectrum (including Adaptive Simpson's rule)
-- 3000 lines of Python code
+- 3,000 lines of Python code
 
 ## Tasks:
 
