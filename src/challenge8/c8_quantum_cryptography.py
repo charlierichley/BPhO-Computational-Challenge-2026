@@ -61,7 +61,7 @@ def draw_arrow(surface, start, end, color="white", line_width=2, head_size=20):
     arrowhead = pygame.draw.polygon(surface, color, arrowhead_coords)
     return (line, arrowhead, arrowhead_coords)
 
-# Normal line, dashed and verticaly upwards. Angles measured anticlockwise from normal
+# Normal line, dashed and vertically upwards. Angles measured anticlockwise from normal
 def normal_line(surface, start, end, dash_length=5, color="white"):
     start_x, start_y = start
     end_x, end_y = end
