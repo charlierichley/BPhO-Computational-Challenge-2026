@@ -99,6 +99,8 @@ def update_plot(event):
         entry.delete(0, tk.END)
         try:
             new_temp = int(temp)
+            if new_temp <= 0:
+              return
         except ValueError:
             return
         points = np.array(return_points(d_lamda, new_temp))
