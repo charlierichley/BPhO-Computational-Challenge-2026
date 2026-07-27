@@ -8,7 +8,7 @@ import numpy as np
 import matplotlib.animation as animation
 from matplotlib.patches import Circle
 
-# Physical constanits
+# Physical constants
 particle_ratio = 5 # Ratio between radii of small and large particle
 N_particles = 300
 T = 100 # temperature in C
@@ -139,9 +139,9 @@ def update(frame):
             lst[0] = v * np.cos(angle)
             lst[1] = v * np.sin(angle)
 
-    if not x_min + R <= large_x <= x_max - R: # collision with x axis
+    if (large_x <= x_min + R or large_x >= x_max - R): # collision with x axis
         vx2 *= -1
-    if not y_min + R <= large_y <= y_max - R: # collision with y axis
+    if (large_y <= y_min + R or large_y >= y_max - R): # collision with y axis
         vy2 *= -1
 
     past_positions.append([large_x, large_y])
