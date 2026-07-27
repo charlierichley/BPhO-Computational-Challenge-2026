@@ -19,7 +19,7 @@ https://www.youtube.com/watch?v=Boz_FdN7sq8
 - Developed an interactive simulation of 2D random walks using Tkinter and Matplotlib, allowing users to change step size, step number, and number of walks
 - Animated 3D random walks using PyVista
 <p align="center">
-<img src="./images/random_walks.png" alt="Random Walks GUI" width="500">
+<img src="./images/random_walks_gui.png" alt="Random Walks GUI" width="500">
 </p>
 
 ### Task 2 - Brownian Motion
