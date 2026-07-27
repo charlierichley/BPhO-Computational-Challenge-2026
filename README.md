@@ -68,4 +68,4 @@ https://www.youtube.com/watch?v=Boz_FdN7sq8
 
 
 ## Requirements:
-Python 3.12, PyVista, NumPy, Matplotlib, Tkinter, colour, SciPy, Pygame, Pygame Widgets
+Python 3.12, PyVista, NumPy, Matplotlib, Tkinter, colour-science, SciPy, Pygame, Pygame Widgets
