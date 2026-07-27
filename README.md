@@ -44,7 +44,7 @@ https://www.youtube.com/watch?v=Boz_FdN7sq8
 - Created a computer model of electron diffraction rings, plotted the ring radii against accelerating voltage and confirmed the atomic spacing d
 
 ### Task 7 - Particle in a Box
-- Plotted energy against quantum number n and probabilities densities against displacement for the particle in a box model
+- Plotted energy against quantum number n and probability densities against displacement for the particle in a box model
 - Extension: completed the Quantum Mechanics problem sheet and wrote up my solutions using LaTeX, which involved proving a solution to the Schrödinger equation, and showing that the particle satisfies the uncertainty principle
 
 ### Task 8 - Quantum Cryptography
