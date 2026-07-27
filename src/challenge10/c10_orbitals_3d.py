@@ -101,7 +101,7 @@ for indx, z in enumerate(Z_arr):
     wave_func = (np.abs(wave_function(n, l, m, theta, phi, r))) ** 2
     PD_PLOT[indx] = wave_func
 
-# Normalising the probabilites - scale 0 to 1
+# Normalising the probabilities - scale 0 to 1
 max_wave_func = np.max(PD_PLOT)
 PD_PLOT = PD_PLOT / max_wave_func
 values = np.transpose(PD_PLOT, (2,1,0)) # reverse the axes
