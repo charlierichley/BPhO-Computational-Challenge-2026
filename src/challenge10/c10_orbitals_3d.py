@@ -1,4 +1,4 @@
-# Renders hydrogenic orbtials in 3D using Pyvista
+# Renders hydrogenic orbitals in 3D using PyVista
 
 import pyvista as pv
 import numpy as np
