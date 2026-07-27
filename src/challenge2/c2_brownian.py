@@ -87,7 +87,7 @@ def bounce(x1,y1,vx1,vy1, m1, R1, x2, y2, vx2, vy2, m2, R2, C):
         u2 = np.array([vx2, vy2])
         mag = np.linalg.norm(vector)
         if mag != 0:
-            unit_vector = vector / mag  # the unit vector between the two partices
+            unit_vector = vector / mag  # the unit vector between the two particles
         else:
             return False
         dx = x2 - x1
