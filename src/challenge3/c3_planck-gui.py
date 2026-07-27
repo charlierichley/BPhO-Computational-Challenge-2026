@@ -62,7 +62,7 @@ ax.ticklabel_format(axis='y', style='sci', scilimits=(0, 0), useMathText=True)
 original_temps = [[4000], [5000], [6000]]
 colors = choose_colors(len(original_temps))[::-1]
 
-# Plotting the intial points for T = 4000, 5000 and 6000K
+# Plotting the initial points for T = 4000, 5000 and 6000K
 for i, item in enumerate(original_temps):
     item = item[0]
     points = np.array(return_points(d_lamda, item))
