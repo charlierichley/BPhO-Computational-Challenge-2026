@@ -28,7 +28,7 @@ https://www.youtube.com/watch?v=Boz_FdN7sq8
 <img src="./images/brownian_motion.png" alt="Brownian Motion" width="500">
 </p>
 
-### Task 3 - Black Body Radiatio
+### Task 3 - Black Body Radiation
 - Plotted Einstein's model of molar heat capacity
 - Developed an interactive application to plot the Planck Black Body Radiation spectrum at inputted temperatures
 - Extension: investigated numerical methods used to integrate the Planck Spectrum, including the trapezium rule both static and adaptive Simpson's rule. Verified the Stefan-Boltzmann law and developed animations of methods
