@@ -63,5 +63,7 @@ https://www.youtube.com/watch?v=Boz_FdN7sq8
 <img src="./images/orbital_3d.png" alt="Hydrogenic orbital" width="500">
 </p>
 
+---
+
 ### Requirements:
 Python 3.12, PyVista, NumPy, Matplotlib, Tkinter, colour, SciPy, Pygame, Pygame Widgets
