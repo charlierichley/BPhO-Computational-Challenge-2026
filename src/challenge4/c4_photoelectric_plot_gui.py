@@ -75,7 +75,7 @@ ax.autoscale(enable=True, axis="y", tight=True)
 canvas = FigureCanvasTkAgg(fig, master=root)
 canvas.draw()
 
-# Initilaising the plot that first appears when opened
+# Initialising the plot that first appears when opened
 length = len(work_functions)
 element = "Sodium"
 while element == "Sodium":
