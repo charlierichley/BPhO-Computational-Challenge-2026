@@ -27,8 +27,8 @@ https://www.youtube.com/watch?v=Boz_FdN7sq8
 
 ### Task 3 - Black Body Radiation and Numerical Methods
 - Plotted Einstein's model of molar heat capacity
-- Developed an interactive application to plot the Planck Black Body Radiation spectrum at inputted temperatures.
-- Extension: investigated numerical methods used to integrate the Planck Spectrum, including the trapezium rule both static and adaptive Simpson's rule to verify the Stefan-Boltzmann law and developed animations of methods
+- Developed an interactive application to plot the Planck Black Body Radiation spectrum at inputted temperatures
+- Extension: investigated numerical methods used to integrate the Planck Spectrum, including the trapezium rule both static and adaptive Simpson's rule. Verified the Stefan-Boltzmann law and developed animations of methods
 
 ### Task 4 - Photoelectric Effect
 - Created a GUI plotting stopping voltage against frequency, allowing users to choose a metal from a dropdown menu
