@@ -25,7 +25,7 @@ ax.set_xlabel("Wavelength /nm")
 ax.set_ylabel("Photon energy /eV")
 ax.set_title("Bohr model of Hydrogenic atom photon emissions: Z = 1")
 
-# Spetral lines of hydrogen
+# Spectral lines of hydrogen
 m_list = [(1, "red"), (2, "orange"), (3, "blue"), (4, "green"), (5, "white")]
 m_dict = {1: "Lyman", 2: "Balmer", 3: "Paschen", 4: "Brackett", 5: "Pfund"}
 
