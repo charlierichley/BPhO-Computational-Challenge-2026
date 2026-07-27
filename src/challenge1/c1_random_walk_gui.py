@@ -94,7 +94,7 @@ walk_number_slider.set(orig_walk_number)
 for i in range(3):
     controls.columnconfigure(i, weight=1)
 
-# Creating labels for grid, as default labels aren't centered (visually offputting)
+# Creating labels for grid, as default labels aren't centered (visually off-putting)
 label_walk_no = tk.Label(controls, text="Number of walks", anchor="center")
 label_walk_no.grid(row=0, column=0, sticky="ew")
 
