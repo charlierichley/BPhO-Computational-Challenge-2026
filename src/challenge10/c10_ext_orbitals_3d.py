@@ -175,7 +175,7 @@ def update_plot(step):
 
     curr_indx = find_index(m_min, m_curr)
 
-    # Normalising the probabilites - scale 0 to 1
+    # Normalising the probabilities - scale 0 to 1
     if m_curr == m_max: # last m_curr value, so no interpolation
         PD_PLOT_curr = PD_PLOT[curr_indx]
         max_wave_func = np.max(PD_PLOT_curr)
