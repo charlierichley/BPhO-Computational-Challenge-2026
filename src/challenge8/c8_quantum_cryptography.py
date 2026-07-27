@@ -61,7 +61,7 @@ def draw_arrow(surface, start, end, color="white", line_width=2, head_size=20):
     arrowhead = pygame.draw.polygon(surface, color, arrowhead_coords)
     return (line, arrowhead, arrowhead_coords)
 
-# Normal line, dashed and vertically upwards. Angles measured anticlockwise from normal
+# Normal line, dashed and verticaly upwards. Angles measured anticlockwise from normal
 def normal_line(surface, start, end, dash_length=5, color="white"):
     start_x, start_y = start
     end_x, end_y = end
@@ -75,11 +75,11 @@ def normal_line(surface, start, end, dash_length=5, color="white"):
 
 def draw_detector(surface, centre_x, centre_y, end_x, end_y, detector_color="white", normal_color="white", normal_length=0.2):
     p_x, p_y = pxy(centre_x, centre_y)
-    line, arrowhead_x, arrowhead_coords_x = draw_arrow(surface, (p_x, p_y), pxy(end_x, end_y), color=detector_color)
+    line, arwhead_x, arrowhead_coords_x = draw_arrow(surface, (p_x, p_y), pxy(end_x, end_y), color=detector_color)
 
     dx = px(end_x - centre_x)
     dy = py(end_y - centre_y)
-    line_y, arrowhead_y, arrowhead_coords_y = draw_arrow(surface, (p_x, p_y), (p_x + dy, p_y - dx), color=detector_color)
+    line_y, arowwhead_y, arrowhead_coords_y = draw_arrow(surface, (p_x, p_y), (p_x + dy, p_y - dx), color=detector_color)
 
     normal = normal_line(surface, start=pxy(centre_x, centre_y), end=pxy(centre_x, centre_y - normal_length), color=normal_color)
 
@@ -174,6 +174,11 @@ classical_colour = (255, 80, 80)
 quantum_colour = (180, 255, 0)
 angle_color = "#F6FF4D"
 
+# Creating fonts
+small_font = pygame.font.SysFont("arial", 12)
+large_font = pygame.font.SysFont("arial", 18)
+detector_label_font = pygame.font.SysFont("arial", 22)
+
 # Constants for box around probability and distance from detector
 normal_buffer = 110
 width_box = 110
@@ -195,7 +200,7 @@ while running:
     centroid_xa = centroid(arrowhead_coords_xa)
     centroid_ya = centroid(arrowhead_coords_ya)
 
-    # X_A detector activated
+    # X_A detetor activated
     if pygame.Vector2((mx, my)).distance_to(centroid_xa) < arrow_move_threshold:
         x_end_xa, y_end_xa = update_detector(centre_xa, centre_ya, x_end_xa, y_end_xa, mx, my, length_arrow_a)
 
@@ -244,11 +249,6 @@ while running:
     # Calculating classical and quantum mismatch probabilities
     classical_match, classical_mismatch = classical_probability(theta, phi)
     quantum_match, quantum_mismatch = quantum_probability(theta, phi)
-
-    # Creating fonts
-    small_font = pygame.font.SysFont("arial", 12)
-    large_font = pygame.font.SysFont("arial", 18)
-    detector_label_font = pygame.font.SysFont("arial", 22)
 
     # Labelling Detector A
     xa_label = px(centre_xa)
