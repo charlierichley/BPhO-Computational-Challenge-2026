@@ -34,7 +34,7 @@ h = 6.626 * (10**-34)
 c = 2.998 * (10**8)
 sigma_const = 5.670374419 * 1e-8
 
-# Plank's radiation law
+# Planck's radiation law
 def B(lamda, T, is_adap_plot=False, is_adap_integrate=False):
     first_term = 2 * h * (c ** 2) / (lamda ** 5)
     exponential = np.exp(h * c / (lamda * k_B * T))
