@@ -1,4 +1,4 @@
-# Plotting probability density against x for a 'particle in a box'
+# Plotting probability density against x for the particle in a box model
 
 import matplotlib.pyplot as plt
 import numpy as np
