@@ -1,4 +1,4 @@
-# Plotting 1 / sqrt(V) against sin(1/2 phi) and calculating gradient, to find atomic spacing d
+# Plotting 1 / sqrt(V) against sin(1/2 phi) and calculating gradient, to confirm atomic spacing d
 
 import matplotlib.pyplot as plt
 import numpy as np
